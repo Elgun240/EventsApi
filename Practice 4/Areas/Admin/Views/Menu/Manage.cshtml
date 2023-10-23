@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewData["Title"] = "Manage";
+}
+<div class="conatiner">
+    <form id="myForm"
+          class="form-container mx-auto shadow-container"
+          style="width: 80%"
+          enctype="multipart/form-data">
+        <h3 class="mb-3 text-center">Edit Dish "{DishName}"</h3>
+        <div class="form-group">
+            <label class="control-label">Select Restaurent</label>
+            <select name="rname" id="resname" class="form-control">
+                <option>--Select Restaurant--</option>
+                <option value="r_id">{SomeRestaurant}</option>
+            </select>
+            <span></span>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="name">Dish Name</label>
+                    <input type="text"
+                           class="form-control my-2"
+                           name="name"
+                           id="name"
+                           placeholder="Enter dish name"
+                           value="" />
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="price">Price</label>
+                    <input type="Price"
+                           class="form-control my-2"
+                           id="price"
+                           name="price"
+                           placeholder="Enter Price"
+                           value="" />
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="about">About</label>
+                    <input type="text"
+                           class="form-control my-2"
+                           id="about"
+                           name="about"
+                           placeholder="About"
+                           value="" />
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="img">Food Image</label>
+                    <input type="file"
+                           id="image"
+                           name="image"
+                           placeholder="Enter Image"
+                           class="form-control my-2" />
+                    <img src="../../assets/imgs/uploads/dishesh/choppsuey.jpg" />
+                    <img width="300" src="" />
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary ml-2">Make Changes</button>
+        <a href="./list.html" class="btn btn-secondary">Back</a>
+    </form>
+</div>

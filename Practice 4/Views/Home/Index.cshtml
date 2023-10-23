@@ -1,0 +1,192 @@
+﻿@model HomeVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div id="slides" class="carousel slide carousel-cus" data-ride="carousel">
+    <ul class="carousel-indicators">
+        @for (int i = 0; i < Model.Sliders.Count; i++)
+        {
+            <li data-target="#slides" data-slide-to="@i" @(i == 0 ? "class=active" : "")></li>
+        }
+    </ul>
+     
+    <div class="carousel-inner">
+        @for (int i = 0; i < Model.Sliders.Count; i++)
+        {
+            <div class="carousel-item @(i == 0 ? "active" : "")">
+                <img src="~/assets/imgs/img/@Model.Sliders[i].Image" alt="Slide @i" />
+                <div class="carousel-caption text-left">
+                    <h1 class="display-2">Hungry?!</h1>
+                    <h3>Good, we are here to serve you</h3>
+                    <a href="" class="btn btn-outline-light btn-lg">Order Now</a>
+                    <a href="" class="btn btn-primary btn-lg">View Menu</a>
+                </div>
+            </div>
+        }
+        
+    </div>
+
+    
+</div>
+<div class="container-fluid padding">
+    <div class="row text-center welcome">
+        <div class="col-12">
+            <h1 class="display-4">Easy 3 Steps To Follow</h1>
+        </div>
+        <hr />
+        <div class="col-12">
+            <p class="lead">
+                The easiest way to your food. Food Ordering System provides fresh
+                delivery with in the 30 minutes and provide free food if order is
+                not on time. So don't wait and start ordering right now!
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fas fa-utensils"></i>
+            <h3>Choose A Restaurant</h3>
+            <p>
+                First thing you can do is choose from our restautant partners
+                easily!
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fas fa-bullseye"></i>
+            <h3>Choose A Tasty Dish</h3>
+            <p>
+                We've got you covered with menus from over various delivery
+                restaurants online!
+            </p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <i class="fas fa-clipboard-check"></i>
+            <h3>Pick Up or Delivery</h3>
+            <p>
+                After all, the food gets delivered or you can pick it up as per your
+                choices!
+            </p>
+        </div>
+    </div>
+    <hr class="my-4" />
+</div>
+<div class="container-fluid padding">
+    <div class="row welcome text-center welcome">
+        <div class="col-12">
+            <h1 class="display-4">Popular Dishes</h1>
+        </div>
+        <hr />
+    </div>
+</div>
+<div class="container-fluid padding dish-card">
+    <div class="row">
+         @foreach (var item in Model.Products)
+                {
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+           
+                <div class="card mb-4 shadow-sm">
+               
+                    <img class="card-img-top"
+                         src="~/assets/imgs/uploads/dishesh/thumb/@item.Image" />
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h4 class="card-title">@item.Name</h4>
+                            <h4 class="text-muted">
+                                <b>@item.Price</b>
+                            </h4>
+                        </div>
+                        <p class="card-text">
+                            @item.Description
+                        </p>
+                        <a href="addToCart" class="btn btn-primary"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+                    </div>
+                    
+                </div>
+            
+        </div>
+        }
+        
+    </div>
+    <hr class="my-4" />
+</div>
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect With Us</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-google-plus-g"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+<hr class="my-4" />
+<section id="contact-us" class="container shadow my-4 p-4">
+    <!--Section heading-->
+    <div class="alert alert-success">Success</div>
+    <h2 class="text-center my-2 font-weight-bold">Contact Us</h2>
+    <p class="text-center">Always Here For You</p>
+    <!--Section description-->
+    <p class="text-center mx-auto mb-5"></p>
+    <form name="contact-form" action="sendMail" id="myForm" method="POST">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-2">
+                    <label class="mb-0" for="name" class="">Fullname*</label>
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           class="form-control"
+                           required />
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <label class="mb-0" for="email" class="">Email*</label>
+                    <input type="text"
+                           id="email"
+                           name="email"
+                           class="form-control"
+                           required />
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mb-2">
+                    <label class="mb-0" for="subject" class="">Subject</label>
+                    <input type="text"
+                           id="subject"
+                           name="subject"
+                           class="form-control" />
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mb-2">
+                    <label class="mb-0" for="message">Your Message*</label>
+                    <textarea type="text"
+                              id="message"
+                              name="message"
+                              rows="2"
+                              class="form-control"
+                              required>
+Your message</textarea>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="status text-danger font-weight-bold my-2"></div>
+        <button class="btn btn-info" type="submit">Submit</button>
+    </form>
+</section>

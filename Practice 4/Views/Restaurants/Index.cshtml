@@ -1,0 +1,41 @@
+﻿@model List<Restaurant>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container-fluid padding">
+    <div class="row welcome text-center welcome">
+        <div class="col-12">
+            <h1 class="display-4">Restaurants</h1>
+        </div>
+        <hr />
+    </div>
+</div>
+<div class="container text-center padding dish-card">
+    <div class="row container">
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+            @foreach (var item in Model)
+            {
+                <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top"
+                         src="~/assets/imgs/uploads/restaurant/thumb/@item.Image" />
+                    <div class="card-body">
+                        <h4 class="card-title">@item.Name</h4>
+                        <p class="card-text mb-0">
+                            @item.Description
+                        </p>
+                        <p class="card-text mb-0">@item.Adress</p>
+                        <hr />
+                        <p class="card-text mb-0"></p>
+                        
+                       <p class="card-text mb-0">@item.OenDays</p>
+                        <p class="card-text">@item.OpeningTime - @item.ClosingTime</p>
+                        <hr />
+                        <a asp-action="Dish" class="btn btn-primary" asp-route-id="@item.Id">View Menu</a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

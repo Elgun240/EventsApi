@@ -1,0 +1,68 @@
+﻿@model LoginVM
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css" />
+    <script src="~/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/assets/css/profile.css" />
+</head>
+
+<body>
+    <div class="wrapper mt-sm-5">
+        @if (ViewData.ModelState.ContainsKey("Success"))
+        {
+            <div class="alert alert-success" role="alert">
+                <strong>@ViewData.ModelState["Success"].Errors.FirstOrDefault().ErrorMessage</strong>
+            </div>
+        }
+
+        <!---Error Message--->
+        @if (ViewData.ModelState.ContainsKey("Error"))
+        {
+            <div class="alert alert-danger" role="alert">
+                <strong>@ViewData.ModelState["Error"].Errors.FirstOrDefault().ErrorMessage</strong>
+            </div>
+        }
+        <h4 class="pb-4 border-bottom text-center">Login To Your Account</h4>
+        <form method="post" asp-action="Login">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text"
+                       class="form-control bg-light"
+                       asp-for="Username"
+                       placeholder="Username" />
+                <span></span>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input 
+                       class="form-control bg-light"
+                       asp-for="Password"
+                       placeholder="Password" />
+                <span></span>
+            </div>
+            <div class="py-3 pb-4 border-bottom">
+                <button type="submit" class="btn btn-success mr-3">Login</button>
+                <a asp-action="Register" class="btn btn-danger">Register</a>
+            </div>
+        </form>
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

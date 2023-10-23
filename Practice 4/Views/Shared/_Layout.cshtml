@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Food Ordering</title>
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css" />
+    <script src="~/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="~/assets/css/style.css" />
+    <!-- <style></style> -->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index"><i class="fas fa-utensil-spoon"></i> Food Ordering System</a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarRes">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarRes">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-controller="Restaurants" asp-action="Index">Restaurants</a>
+                    </li>
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item active">
+                            <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" asp-action="Register" asp-controller="Account">Register</a>
+                        </li>
+                    }
+                    
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle"
+                           href="#"
+                           id="navbarDropdown"
+                           role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true"
+                           aria-expanded="false">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                @User.Identity.Name
+                            }
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" asp-controller="Profile" asp-action="MyProfile"><i class="fas fa-user-circle"></i> My Profile</a>
+                            <hr />
+                            <a class="dropdown-item" asp-controller="Profile" asp-action="Orders"><i class="fas fa-shopping-bag"></i> Orders</a>
+                            <hr />
+                            <a class="dropdown-item" asp-controller="Account" asp-action="Logout"><i class="fas fa-power-off"></i> Logout</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-controller="Cart" asp-action="Index"><i class="fas fa-cart-arrow-down"></i> My Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+            @RenderBody()
+    <footer class="section p-3 bg-dark text-white">
+        <div class="text-center">&copy; Copyright 2023 Food Ordering System</div>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $(".dropdown").hover(function () {
+                var dropdownMenu = $(this).children(".dropdown-menu");
+                if (dropdownMenu.is(":visible")) {
+                    dropdownMenu.parent().toggleClass("open");
+                }
+            });
+        });
+    </script>
+</body>
+</html>

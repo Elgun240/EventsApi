@@ -1,0 +1,441 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Practice 4.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Practice 4.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\category\\add_cat.html",
+      "PackagePath": "staticwebassets\\admin\\category\\add_cat.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\category\\edit.html",
+      "PackagePath": "staticwebassets\\admin\\category\\edit.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\category\\list.html",
+      "PackagePath": "staticwebassets\\admin\\category\\list.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\dashboard.html",
+      "PackagePath": "staticwebassets\\admin\\dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\login.html",
+      "PackagePath": "staticwebassets\\admin\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\menu\\add_menu.html",
+      "PackagePath": "staticwebassets\\admin\\menu\\add_menu.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\menu\\edit.html",
+      "PackagePath": "staticwebassets\\admin\\menu\\edit.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\menu\\list.html",
+      "PackagePath": "staticwebassets\\admin\\menu\\list.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\orders\\list.html",
+      "PackagePath": "staticwebassets\\admin\\orders\\list.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\orders\\processOrder.html",
+      "PackagePath": "staticwebassets\\admin\\orders\\processOrder.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\partials\\footer.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\footer.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\partials\\header.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\header.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\store\\add_res.html",
+      "PackagePath": "staticwebassets\\admin\\store\\add_res.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\store\\edit.html",
+      "PackagePath": "staticwebassets\\admin\\store\\edit.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\store\\list.html",
+      "PackagePath": "staticwebassets\\admin\\store\\list.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\user\\add_user.html",
+      "PackagePath": "staticwebassets\\admin\\user\\add_user.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\user\\edit.html",
+      "PackagePath": "staticwebassets\\admin\\user\\edit.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\user\\list.html",
+      "PackagePath": "staticwebassets\\admin\\user\\list.html"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\assets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\profile.css",
+      "PackagePath": "staticwebassets\\assets\\css\\profile.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\img\\bfbrg.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\img\\bfbrg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\img\\snwbg.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\img\\snwbg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\img\\spaghetti-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\img\\spaghetti-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\Pappardelle.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\Pappardelle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\aw-arancini-articleLarge.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\aw-arancini-articleLarge.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\chimichangs.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\chimichangs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\choppsuey.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\choppsuey.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\curywurst.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\curywurst.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\delish-fettuccine-alfredo.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\delish-fettuccine-alfredo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\detroitpzz.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\detroitpzz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\ffries.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\ffries.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\fried-ravioli-bread-crumbs.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\fried-ravioli-bread-crumbs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\hdoggg.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\hdoggg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\hmbrger.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\hmbrger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\igcsan.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\igcsan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\mldessert.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\mldessert.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\mozzsticks.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\mozzsticks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\philly-cheesesteak-3c4be15.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\philly-cheesesteak-3c4be15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\poboy.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\poboy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\reubensandw.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\reubensandw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\roast-beef-sandwich.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\roast-beef-sandwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\spCarbonara.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\spCarbonara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\sschicken.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\sschicken.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\stkkk.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\stkkk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\Pappardelle.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\Pappardelle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\aw-arancini-articleLarge.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\aw-arancini-articleLarge.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\chimichangs.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\chimichangs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\choppsuey.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\choppsuey.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\curywurst.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\curywurst.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\delish-fettuccine-alfredo.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\delish-fettuccine-alfredo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\detroitpzz.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\detroitpzz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\ffries.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\ffries.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\fried-ravioli-bread-crumbs.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\fried-ravioli-bread-crumbs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\hdoggg.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\hdoggg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\hmbrger.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\hmbrger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\igcsan.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\igcsan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\mldessert.jpeg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\mldessert.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\mozzsticks.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\mozzsticks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\philly-cheesesteak-3c4be15.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\philly-cheesesteak-3c4be15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\poboy.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\poboy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\reubensandw.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\reubensandw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\roast-beef-sandwich.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\roast-beef-sandwich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\spCarbonara.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\spCarbonara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\sschicken.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\sschicken.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\stkkk.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\stkkk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\turkey-fajitas.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\thumb\\turkey-fajitas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\turkey-fajitas.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\dishesh\\turkey-fajitas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\no-image.png",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\no-image.png"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\TOWNSEND.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\TOWNSEND.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\artisan-cafe-berea-ky.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\artisan-cafe-berea-ky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\grestro.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\grestro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\hlmg.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\hlmg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\icnr.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\icnr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\TOWNSEND.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\thumb\\TOWNSEND.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\artisan-cafe-berea-ky.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\thumb\\artisan-cafe-berea-ky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\grestro.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\thumb\\grestro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\hlmg.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\thumb\\hlmg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\icnr.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\thumb\\icnr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\treehouserestr.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\thumb\\treehouserestr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\vrfnb.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\thumb\\vrfnb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\treehouserestr.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\treehouserestr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\vrfnb.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\uploads\\restaurant\\vrfnb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Practice 4.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Practice 4.props",
+      "PackagePath": "build\\Practice 4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Practice 4.props",
+      "PackagePath": "buildMultiTargeting\\Practice 4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Practice 4.props",
+      "PackagePath": "buildTransitive\\Practice 4.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

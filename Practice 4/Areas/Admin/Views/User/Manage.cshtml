@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewData["Title"] = "Manage";
+}
+
+<div class="conatiner">
+    <form class="form-container mx-auto shadow-container"
+          id="myForm"
+          style="width: 80%">
+        <h3 class="mb-3 p-2 text-center">Edit User "johndoe12"</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="username">Enter Username</label>
+                    <input type="text"
+                           id="userName"
+                           class="form-control"
+                           name="username"
+                           value="username" />
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label for="firstname">Enter First Name</label>
+                    <input type="text"
+                           id="firstName"
+                           class="form-control"
+                           name="firstname"
+                           value="firstName" />
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Enter Last Name</label>
+                    <input type="text"
+                           id="lastName"
+                           class="form-control"
+                           name="lastname"
+                           value="lastName" />
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email"
+                           id="email"
+                           class="form-control"
+                           name="email"
+                           placeholder="email"
+                           value="email" />
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="number"
+                           id="phone"
+                           class="form-control"
+                           name="phone"
+                           placeholder="Phone"
+                           value="+23131321321" />
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password"
+                           id="pass"
+                           class="form-control"
+                           name="password"
+                           placeholder="Password"
+                           value="dsad" />
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="address">Address</label>
+            <textarea name="address"
+                      id="address"
+                      type="text"
+                      style="height: 70px"
+                      class="form-control"></textarea>
+            <span></span>
+        </div>
+        <button type="submit" class="btn btn-success">Make Changes</button>
+        <a href="~/list.html" class="btn btn-secondary">Back</a>
+    </form>
+</div>
+
