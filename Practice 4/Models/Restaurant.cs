@@ -35,7 +35,10 @@ namespace Practice_4.Models
         public IFormFile Photo { get; set; }
         public string Contact { get; set; }
         public string URL { get; set; }
+        public string Email { get; set; }
+        public Category Category { get; set; }
+        public int CategoryId { get; set; } = 1;
     }
-    
-   
+
+
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8UWGRpQc/1ZPvSciVVlJDvz2dJeJi1+SJF7OuTXjF795o1prtubQr45XbHyv8bVk5cfTb7+KU1V65SBKsRBIRQ==",
+  "dgSpecHash": "UMJ8LfEu7zMkLjo2VvGVTKiRFZ/YyCAPd/WlVTSdY727tz1AmY6Ulbn65rho5kVqzQ/5bSuRjEgjrpbQ5PtK/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\Practice 4.csproj",
+  "projectFilePath": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\Practice 4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luna\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Luna\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

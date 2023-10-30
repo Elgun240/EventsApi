@@ -18,7 +18,10 @@ namespace Practice_4.Controllers
 
         public async Task<IActionResult> Index()
         {
-           
+            if (User.IsInRole("Admin"))
+            {
+                return RedirectToAction("Index", "Dashboard", new {area="Admin"});
+            }
             HomeVM homeVM = new HomeVM()
             {
                 

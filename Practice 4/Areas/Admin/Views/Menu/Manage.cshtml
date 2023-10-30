@@ -1,20 +1,32 @@
-﻿
+﻿@model EditDishesVM
 @{
     ViewData["Title"] = "Manage";
 }
 <div class="conatiner">
-    <form id="myForm"
+    <form asp-action="Manage"
+    method="post"
           class="form-container mx-auto shadow-container"
           style="width: 80%"
           enctype="multipart/form-data">
-        <h3 class="mb-3 text-center">Edit Dish "{DishName}"</h3>
+        <h3 class="mb-3 text-center">Edit Dish @Model.Product.Name</h3>
         <div class="form-group">
             <label class="control-label">Select Restaurent</label>
-            <select name="rname" id="resname" class="form-control">
+            <select asp-for="@Model.RestaurantID" class="form-control">
                 <option>--Select Restaurant--</option>
-                <option value="r_id">{SomeRestaurant}</option>
+                @foreach (var item in Model.Restaurants)
+                {
+                    if (Model.RestaurantID == item.Id)
+                    {
+                        <option selected value="@item.Id">@item.Name</option>
+                    }
+                    else
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                    
+                }
             </select>
-            <span></span>
+            @*<span asp-validation-for="@Model.Restaurant" class="text-danger"></span>*@
         </div>
         <div class="row">
             <div class="col-md-6">
@@ -22,11 +34,11 @@
                     <label for="name">Dish Name</label>
                     <input type="text"
                            class="form-control my-2"
+                           asp-for="@Model.Name"
                            name="name"
-                           id="name"
                            placeholder="Enter dish name"
-                           value="" />
-                    <span></span>
+                           value="@Model.Product.Name" />
+                    <span asp-validation-for="@Model.Name" class="text-danger"></span>
                 </div>
             </div>
             <div class="col-md-6">
@@ -34,11 +46,11 @@
                     <label for="price">Price</label>
                     <input type="Price"
                            class="form-control my-2"
-                           id="price"
+                           asp-for="@Model.Price"
                            name="price"
                            placeholder="Enter Price"
-                           value="" />
-                    <span></span>
+                           value="@Model.Product.Price" />
+                    <span asp-validation-for="@Model.Price" class="text-danger"></span>
                 </div>
             </div>
             <div class="col-md-12">
@@ -46,28 +58,29 @@
                     <label for="about">About</label>
                     <input type="text"
                            class="form-control my-2"
-                           id="about"
-                           name="about"
+                           asp-for="@Model.Description"
                            placeholder="About"
-                           value="" />
-                    <span></span>
+                           name="description"
+                           value="@Model.Product.Description" />
+                    <span asp-validation-for="@Model.Description" class="text-danger"></span>
                 </div>
             </div>
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="img">Food Image</label>
                     <input type="file"
-                           id="image"
+                           asp-for="@Model.Photo"
                            name="image"
+                           
                            placeholder="Enter Image"
                            class="form-control my-2" />
-                    <img src="../../assets/imgs/uploads/dishesh/choppsuey.jpg" />
+                    <img src="~/assets/imgs/uploads/dishesh/@Model.Product.Image" />
                     <img width="300" src="" />
                     <span></span>
                 </div>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary ml-2">Make Changes</button>
-        <a href="./list.html" class="btn btn-secondary">Back</a>
+        <button type="submit" asp-action="Manage" asp-route-id="@Model.Product.Id" class="btn btn-primary ml-2">Make Changes</button>
+        <a asp-action="List" class="btn btn-secondary">Back</a>
     </form>
 </div>

@@ -1,11 +1,20 @@
-﻿
+﻿@model List<AppUser>
 @{
     ViewData["Title"] = "List";
 }
 <div class="container">
     <div class="container shadow-container">
-        <div class="alert alert-success">success</div>
-        <div class="alert alert-danger">error</div>
+        @if (ViewData.ModelState.ContainsKey("Success"))
+        {
+            <div class="alert alert-success">@ViewData.ModelState["Success"].Errors.FirstOrDefault().ErrorMessage</div>
+           
+        }
+        @if (ViewData.ModelState.ContainsKey("Error"))
+        {
+            <div class="alert alert-danger  ">@ViewData.ModelState["Error"].Errors.FirstOrDefault().ErrorMessage</div>
+
+        }
+        
         <div class="d-flex justify-content-between align-items-center">
             <div class="btn-group">
                 <h2>Available Users</h2>
@@ -30,24 +39,27 @@
                         <th>Action</th>
                     </tr>
                 </thead>
-                <tbody id="myTable">
-                    <tr>
-                        <td>u_id</td>
-                        <td>username</td>
-                        <td>f_name</td>
-                        <td>l_name</td>
-                        <td>email</td>
-                        <td>phone</td>
-                        <td>address</td>
-                        <td>
-                            <a href="./edit.html" class="btn btn-info mb-1"><i class="fas fa-edit mr-1"></i>Edit</a>
-                            <a href="javascript:void(0);" class="btn btn-danger"><i class="fas fa-trash-alt"></i>Delete</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="8">Records not found</td>
-                    </tr>
-                </tbody>
+               @foreach (var item in Model)
+                {
+                    <tbody id="myTable">
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.UserName</td>
+                            <td>@item.Name</td>
+                            <td>@item.Surname</td>
+                            <td>@item.Email</td>
+                            <td>@item.PhoneNumber</td>
+                            <td>@item.Adress</td>
+                            <td>
+                                <a asp-action="Manage" asp-route-id="@item.Id" class="btn btn-info mb-1"><i class="fas fa-edit mr-1"></i>Edit</a>
+                                <a asp-action="Delete" asp-controller="User" asp-route-id="@item.Id" class="btn btn-danger"><i class="fas fa-trash-alt"></i>Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="8">Records not found</td>
+                        </tr>
+                    </tbody>
+                }
             </table>
         </div>
     </div>

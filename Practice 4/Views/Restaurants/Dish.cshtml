@@ -12,7 +12,7 @@
     </div>
     <div class="container res-card">
         <div class="card">
-            <img src="~/assets/imgs/uploads/restaurant/thumb/@Model.Restaurant.Image"
+            <img src="~/assets/imgs/uploads/restaurant/@Model.Restaurant.Image"
                  class="card-img-top" />
             <div class="card-body">
                 <h4 class="card-title font-weight-bold text-primary">@Model.Restaurant.Name</h4>
@@ -43,7 +43,7 @@
                         <p class="card-text">
                            @item.Description
                         </p>
-                        <a href="addToCart" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+                        <a asp-action="AddToCart" asp-route-id="@item.Id" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
                     </div>
                 </div>
             </div>

@@ -1,10 +1,10 @@
-﻿
+﻿@model EditRestaurantVM
 @{
     ViewData["Title"] = "Manage";
 }
 
 <div class="conatiner">
-    <form class="form-container mx-auto shadow-container"
+    <form method="post" asp-action="Manage" class="form-container mx-auto shadow-container"
           style="width: 90%"
           enctype="multipart/form-data">
         <h3 class="mb-3 p-2 text-center mb-3">Edit "Store name" Details</h3>
@@ -13,41 +13,40 @@
                 <div class="form-group">
                     <label class="control-label">Restaurant Name</label>
                     <input type="text"
-                           name="res_name"
+                           asp-for="@Model.Restaurant.Name"
                            class="form-control"
                            placeholder="Add restaurant name"
-                           value="name" />
+                           value="@Model.Restaurant.Name" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">Bussiness E-mail</label>
                     <input type="text"
-                           name="email"
+                           asp-for="@Model.Restaurant.Email"
                            class="form-control form-control-danger"
                            placeholder="example@gmail.com"
-                           value="email" />
+                           value="@Model.Restaurant.Email" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">Phone</label>
                     <input type="text"
-                           name="phone"
+                           asp-for="@Model.Restaurant.Contact"
                            class="form-control"
                            placeholder="phone no"
-                           value="+231093321" />
+                           value="@Model.Restaurant.Contact" />
                 </div>
                 <div class="form-group">
                     <label class="control-label">Website URL</label>
                     <input type="text"
-                           name="url"
+                           asp-for="@Model.Restaurant.URL"
                            class="form-control form-control-danger"
                            placeholder=" http://example.com"
-                           value="url" />
+                           value="@Model.Restaurant.URL" />
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
                     <label class="control-label">Opening Time</label>
-                    <select name="o_hr"
-                            id="o_hr"
+                    <select asp-for="@Model.Restaurant.OpeningTime"
                             class="form-control"
                             data-placeholder="Choose a Category">
                         <option value="">--Select your Hours--</option>
@@ -59,8 +58,7 @@
                 </div>
                 <div class="form-group">
                     <label class="control-label">Closing Time</label>
-                    <select name="c_hr"
-                            id="c_hr"
+                    <select asp-for="@Model.Restaurant.ClosingTime"
                             class="form-control"
                             data-placeholder="Choose a Category">
                         <option value="">--Select your Hours--</option>
@@ -71,8 +69,7 @@
                 </div>
                 <div class="form-group">
                     <label class="control-label">Open Days</label>
-                    <select name="o_days"
-                            id="o_days"
+                    <select asp-for="@Model.Restaurant.OenDays"
                             class="form-control"
                             data-placeholder="Choose a Category"
                             tabindex="1">
@@ -86,22 +83,28 @@
             <div class="col-md-12">
                 <div class="form-group has-danger">
                     <label for="image">Image</label>
-                    <input type="file" name="image" id="image" class="form-control" />
-
-                    <img class="mt-1"
-                         src="../../assets/imgs/uploads/restaurant/thumb/hlmg.jpg " />
-                    <img width="300" src="../../assets/imgs/uploads/no-image.png" />
+                    <input type="file" asp-for="@Model.Restaurant.Photo" class="form-control" />
+                    @if (ViewData.ModelState.ContainsKey("Photo"))
+                    {
+                        <span class="text-danger">@ViewData.ModelState["Photo"].Errors.FirstOrDefault().ErrorMessage</span>
+                    }
+                    @* <img class="mt-1"
+                         src="~/assets/imgs/uploads/restaurant/thumb/hlmg.jpg " />
+                    <img width="300" src="~/assets/imgs/uploads/no-image.png" />*@
                 </div>
                 <div class="form-group">
                     <label class="control-label">Select Category</label>
-                    <select name="c_name" id="c_name" class="form-control">
+                    <select asp-for="@Model.CategoryId" class="form-control">
                         <option value="">--Select Category--</option>
-                        <option value="c_id">c_name</option>
+                        @foreach (var item in Model.Categories)
+                        {
+                            <option value="@item.Id">@item.Name</option>
+                        }
                     </select>
                 </div>
                 <h3 class="box-title m-t-40">Address</h3>
                 <div class="form-group">
-                    <textarea name="address"
+                    <textarea asp-for="@Model.Restaurant.Adress"
                               type="text"
                               style="height: 70px"
                               class="form-control"></textarea>
@@ -110,10 +113,10 @@
         </div>
         <div class="form-actions">
             <input type="submit"
-                   name="submit"
+                   asp-route-Id="@Model.Restaurant.Id"
                    class="btn btn-success"
                    value="Make Changes" />
-            <a href="./list.html" class="btn btn-secondary">Cancel</a>
+            <a asp-controller="List" class="btn btn-secondary">Cancel</a>
         </div>
     </form>
 </div>

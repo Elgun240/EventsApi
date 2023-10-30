@@ -13,6 +13,9 @@ namespace Practice_4.DAL
         public DbSet<Restaurant> Restaurants { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<PaidOrder> PaidOrders { get; set; }
 
     }
 }

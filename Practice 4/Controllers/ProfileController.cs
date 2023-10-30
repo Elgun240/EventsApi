@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using NuGet.Protocol;
 using Practice_4.DAL;
@@ -107,16 +108,35 @@ namespace Practice_4.Controllers
                 return RedirectToAction("MyProfile", "Profile");
             }
 
-            return RedirectToAction("MyProfile", "Profile");
+            //return RedirectToAction("MyProfile", "Profile");
         }
-        public IActionResult Orders()
+        public async Task<IActionResult> Orders()
         {
-            return View();
+            var appuser = await _userManager.GetUserAsync(User);
+            OrderVM orderVM = new OrderVM()
+            {
+                PaidOrders= await _db.PaidOrders.Where(o=>o.AppUserId == appuser.Id).Where(d => d.Status != Status.Delivered).ToListAsync(),
+               DeliveredOrders = await _db.PaidOrders.Where(d=>d.Status==Status.Delivered).ToListAsync(),
+
+            };
+            return View(orderVM);
         }
         public IActionResult Invoice()
         {
             return View();
         }
+        public async Task<IActionResult> CancelOrder(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var order = await _db.PaidOrders.FirstOrDefaultAsync(o => o.Id == id);
+           
+            await _db.SaveChangesAsync();
+            return RedirectToAction("Orders");
+        }
 
     }
+  
 }

@@ -54,7 +54,7 @@ namespace Practice_4.Controllers
                 ModelState.AddModelError("Error", "Your account has been blocked");
                 return View();
             }
-            Microsoft.AspNetCore.Identity.SignInResult signInResult = await _signInManager.PasswordSignInAsync(appUser, loginVM.Password, false, true);
+            Microsoft.AspNetCore.Identity.SignInResult signInResult = await _signInManager.PasswordSignInAsync(appUser, loginVM.Password, true, true);
             if (signInResult.IsLockedOut)
             {
                 ModelState.AddModelError("Error", "Your account locked out for 1 min");
@@ -65,7 +65,8 @@ namespace Practice_4.Controllers
                 ModelState.AddModelError("Error", "Email or password is wrong");
                 return View();
             }
-
+            
+           
             return RedirectToAction("Index", "Home");
             
 

@@ -1,4 +1,4 @@
-﻿
+﻿@model List<Product>
 @{
     ViewData["Title"] = "List";
 }
@@ -28,23 +28,51 @@
                         <th>Action</th>
                     </tr>
                 </thead>
-                <tbody id="myTable">
-                    <tr>
-                        <td>r_id</td>
-                        <td>name</td>
-                        <td>about</td>
-                        <td>price</td>
-                        <td>
-                            <a href="./edit.html" class="btn btn-info mb-1"><i class="fas fa-edit mr-1"></i>Edit</a>
-                            <a href="javascript:void(0);" class="btn btn-danger"><i class="fas fa-trash-alt"></i> Delete</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="4">Records not founds</td>
-                    </tr>
-                </tbody>
+               @foreach (var item in Model)
+                {
+                    <tbody id="myTable">
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            @if (item.Description.Length > 20)
+                            {
+
+                                <td>
+                                    <p id="cmt_@item.Id">@item.Description.Substring(0,20) </p>
+                                    <span id="opn_@item.Id" onclick="showFull('opn_@item.Id', 'clp_@item.Id','cmt_@item.Id', `@item.Description` )">...</span>
+                                    <span id="clp_@item.Id" style="display:none" onclick="Collapse('clp_@item.Id','opn_@item.Id','cmt_@item.Id' )">-</span>
+                                </td>
+                            }
+                            <td>@item.Price</td>
+                            <td>
+                                <a asp-action="Manage" asp-route-id="@item.Id" class="btn btn-info mb-1"><i class="fas fa-edit mr-1"></i>Edit</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger"><i class="fas fa-trash-alt"></i> Delete</a>
+                            </td>
+                        </tr>
+                       
+                    </tbody>
+                }
             </table>
         </div>
     </div>
 </div>
+<script>
+    function Collapse(collapseId, openId, Id) {
+        let p = document.getElementById(Id);
+        let newtext = p.innerText.substring(0, 20);
+        p.innerText = newtext;
+        p.innerHTML = newtext;
+        document.getElementById(collapseId).style.display = "none";
+        document.getElementById(openId).style.display = "block";
+    }
+    function showFull(openId, collapseId, Id, text) {
+        let p = document.getElementById(Id);
+        p.innerText = text;
+        p.innerHTML = text;
+        document.getElementById(openId).style.display = "none";
+        document.getElementById(collapseId).style.display = "block";
+
+    }
+</script>
+
 

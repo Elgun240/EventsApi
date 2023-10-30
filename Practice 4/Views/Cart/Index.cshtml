@@ -1,4 +1,4 @@
-﻿
+﻿@model OrderVM
 @{
     ViewData["Title"] = "Index";
 }
@@ -6,61 +6,126 @@
 <div class="container">
     <h2>Shopping Cart</h2>
     <div class="table-responsive-sm">
-        <table class="table table-striped table-hover">
-            <thead>
-                <tr>
-                    <th width="10%"></th>
-                    <th width="10%">Dish</th>
-                    <th width="10%">Price</th>
-                    <th width="10%">Quantity</th>
-                    <th width="10%">SubTotal</th>
-                    <th width="10%">Action</th>
-                </tr>
-            </thead>
-            <tbody id="myTable">
-                <tr>
-                    <td>
-                        <img class=""
-                             width="70"
-                             src="~/assets/imgs/uploads/dishesh/thumb/chimichangs.jpg" />
-                    </td>
-                    <td>Name</td>
-                    <td>$35</td>
-                    <td>
-                        <input type="number"
-                               class="form-control text-center"
-                               value="2"
-                               onChange="updateCartItem(this, 1)" />
-                    </td>
-                    <td>Total</td>
-                    <td>
-                        <a href=""
-                           onclick="return confirm('Are you sure?')"
-                           class="btn btn-danger btn-flat btn-addon btn-xs m-b-10">
-                            <i class="fas fa-trash-alt"></i>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="6"><p>No Items In Your Cart!!</p></td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>
-                        <a asp-controller="Restaurants" asp-action="Index" class="btn btn-sm btn-warning"><i class="fas fa-angle-left"></i> Continue Ordering</a>
-                    </td>
-                    <td colspan="3"></td>
-                    <td class="text-left">Grand Total: <b>$50</b></td>
-                    <td>
-                        <a asp-action="Checkout"
-                           class="btn btn-sm btn-success btn-block">
-                            Checkout <i class="fas fa-angle-right"></i>
-                        </a>
-                    </td>
-                </tr>
-            </tfoot>
-        </table>
+        <form asp-action="Checkout"
+        method="post"
+              class="form-container mx-auto shadow-container"
+              style="width: 80%"
+              enctype="multipart/form-data">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th width="10%"></th>
+                        <th width="10%">Dish</th>
+                        <th width="10%">Price</th>
+                        <th width="10%">Quantity</th>
+                        <th width="10%">SubTotal</th>
+                        <th width="10%">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="myTable">
+                    @foreach (var item in Model.Orders)
+                    {
+                        <tr>
+                            <td>
+                                <img class=""
+                                     width="70"
+                                     asp-for="@item.Image"
+                                     src="~/assets/imgs/uploads/dishesh/@item.Image" />
+                            </td>
+                            <td asp-for="@item.DishName">@item.DishName</td>
+                            <td>@item.Price</td>
+                            <td>
+                                <input type="number"
+                                       class="form-control text-center"
+                                       asp-for="@item.Quatntity"
+                                       onchange="updateCartItem(this, @item.Id,@item.RestaurantId); calculateGrandTotal();"
+                                       oninput="updateCartItem(this, @item.Id,@item.RestaurantId); calculateGrandTotal();" />
+                            </td>
+                            <td id="total-@item.Id">@item.Price</td>
+                            <td>
+                                <a asp-action="Delete" asp-route-id="@item.Id"
+                                   onclick="return confirm('Are you sure?')"
+                                   class="btn btn-danger btn-flat btn-addon btn-xs m-b-10">
+                                    <i class="fas fa-trash-alt"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>
+                            <a asp-controller="Restaurants" asp-action="Index" class="btn btn-sm btn-warning"><i class="fas fa-angle-left"></i> Continue Ordering</a>
+                        </td>
+                        <td colspan="3"></td>
+                        <td class="text-left">
+                            Grand Total: <b id="grandTotal">$@Model.SubTotal</b>
+                        </td>
+                        <td>
+                            <button type="submit" class="btn btn-sm btn-success btn-block">Checkout <i class="fas fa-angle-right"></i></button>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
     </div>
 </div>
 
+<script>
+    function updateCartItem(input, productId, RestaurantId) {
+        var newQuantity = parseInt(input.value);
+        var price = parseFloat(input.parentElement.previousElementSibling.innerText);
+        var totalSpan = document.getElementById("total-" + productId);
+        totalSpan.innerText = (newQuantity * price).toFixed(2);
+
+        // Отправляем AJAX-запрос на обновление количества
+        $.ajax({
+            url: "/Cart/ChangeQuantity", // Обратите внимание на путь к контроллеру Cart
+            method: "POST",
+            data: { count: newQuantity, productid: productId, resId: RestaurantId }, // Обратите внимание на параметры
+            success: function (data) {
+                console.log("Количество успешно обновлено.");
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    }
+
+    function calculateGrandTotal() {
+        var totalElements = document.querySelectorAll('[id^="total-"]');
+        var grandTotal = 0;
+        totalElements.forEach(function (element) {
+            grandTotal += parseFloat(element.innerText);
+        });
+        var grandTotalSpan = document.getElementById("grandTotal");
+        grandTotalSpan.innerText = grandTotal.toFixed(2);
+    }
+
+   
+    function checkout() {
+        // Создайте объект FormData и добавьте данные из формы
+        var formData = new FormData(document.getElementById('checkoutForm'));
+
+        // Добавьте значения из grandTotal и других элементов формы, если необходимо
+        var grandTotal = document.getElementById('grandTotal').innerText;
+        formData.append('grandTotal', grandTotal);
+
+        // Выполните POST-запрос к вашему контроллеру
+        fetch('/Cart/Checkout', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.text())
+            .then(data => {
+                // Обработка успешного ответа от сервера (если нужно)
+                window.location.href = '/Cart/Checkout';
+            })
+            .catch(error => {
+                // Обработка ошибки (если нужно)
+            });
+
+        // Вернуть false, чтобы предотвратить отправку формы
+        return true;
+    }
+</script>

@@ -1,14 +1,15 @@
-﻿
+﻿@model CheckoutVM
 @{
     ViewData["Title"] = "Checkout";
+    var total = Model.Orders.Sum(x => x.Price * x.Quatntity);
 }
-
 
 <div class="container">
     <div class="row">
         <div class="col-md-8">
             <h2 class="mt-3">Order Preview</h2>
             <div class="table-responsive-sm">
+                
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
@@ -19,56 +20,63 @@
                             <th>SubTotal</th>
                         </tr>
                     </thead>
-                    <tbody id="myTable">
-                        <tr>
-                            <td>
-                                <img class=""
-                                     width="100"
-                                     src="~/assets/imgs/uploads/dishesh/thumb/aw-arancini-articleLarge.jpg " />
-                            </td>
-                            <td>name</td>
-                            <td>price</td>
-                            <td>quantity</td>
-                            <td>subtotal</td>
-                        </tr>
-                        <tr>
-                            <td colspan="5">
-                                <p>No Items In Your Cart!!</p>
-                            </td>
-                        </tr>
-                    </tbody>
+                    @foreach (var item in Model.Orders)
+                    {
+                        <tbody id="myTable">
+                            <tr>
+                                <td>
+                                    <img class=""
+                                         width="100"
+                                         src="~/assets/imgs/uploads/dishesh/@item.Image " />
+                                </td>
+                                <td>@item.DishName</td>
+                                <td>@item.Price</td>
+                                <td>@item.Quatntity</td>
+                                <td>@item.SubTotal</td>
+                            </tr>
+                           
+                        </tbody>
+                    }
                     <tfoot>
                         <tr>
                             <td colspan="4"></td>
-                            <td class="text-left">Total: <b>$90</b></td>
+                            <td class="text-left">Total: <b>$(@total)</b></td>
                         </tr>
                     </tfoot>
                 </table>
             </div>
         </div>
         <div class="col-md-4">
-            <form class="form-container shadow-container" style="width: 80%">
+            <form asp-action="ConfirmOrder" method="post" class="form-container shadow-container" style="width: 80%">
                 <h3 class="mt-3">Shipping Details</h3>
                 <hr />
                 <div class="form-group">
                     <label for="address">Address</label>
-                    <textarea name="address"
-                              type="text"
-                              style="height: 70px"
-                              class="form-control"></textarea>
+                    <input type="text"
+                           asp-for="@Model.Adress"
+                           style="height: 70px"
+                           class="form-control"
+                           placeholder="@Model.Adress"
+                           value="@Model.Adress" />
                 </div>
+                @foreach (var item in Model.Orders)
+                {
+                    <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].DishName" value="@item.DishName" />
+                    <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].Price" value="@item.Price" />
+                    <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].Quatntity" value="@item.Quatntity" />
+                    <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].Subtotal" value="@item.SubTotal" />
+                }
                 <p class="lead mb-0">Cash On Delivery</p>
                 <div class="container p-2 mb-3" style="background: #e5e5e5">
                     Pay with Cash on Delivery
                 </div>
                 <div>
-                    <a href="~/cart.html" class="btn btn-warning"><i class="fas fa-angle-left"></i> Back to cart</a>
-                    <a href="~/index.html" name="placeOrder" class="btn btn-success">
+                    <a href="./cart.html" class="btn btn-warning"><i class="fas fa-angle-left"></i> Back to cart</a>
+                    <button type="submit" class="btn btn-success">
                         Place Order <i class="fas fa-angle-right"></i>
-                    </a>
+                    </button>
                 </div>
             </form>
         </div>
     </div>
 </div>
-

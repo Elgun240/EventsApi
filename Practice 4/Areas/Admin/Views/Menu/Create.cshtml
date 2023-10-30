@@ -1,19 +1,22 @@
-﻿
+﻿@model EditDishesVM
 @{
     ViewData["Title"] = "Create";
 }
 <div class="conatiner">
-    <form id="myForm"
-          name="myForm"
+    <form asp-action="Create"
+    method="post"
           class="form-container mx-auto shadow-container"
           style="width: 80%"
           enctype="multipart/form-data">
         <h3 class="mb-3 text-center">Add Food Items</h3>
         <div class="form-group">
             <label class="control-label">Select Restaurant</label>
-            <select name="rname" id="resname" class="form-control">
+            <select asp-for="@Model.RestaurantID" class="form-control">
                 <option>--Select Restaurant--</option>
-                <option value="r_id">{SomeRestaurant}</option>
+                @foreach (var item in Model.Restaurants)
+                {
+                    <option value="@item.Id">@item.Name</option>
+                }
             </select>
             <span></span>
         </div>
@@ -23,20 +26,18 @@
                     <label for="name">Dish Name</label>
                     <input type="text"
                            class="form-control my-2"
-                           name="name"
-                           id="name"
+                           asp-for="@Model.Name"
                            placeholder="Enter Dish name"
-                           value="name" />
+                           value="name" required/>
                     <span></span>
                 </div>
                 <div class="form-group">
                     <label for="price">Price</label>
                     <input type="number"
                            class="form-control my-2"
-                           id="price"
-                           name="price"
+                           asp-for="@Model.Price"
                            placeholder="Enter Price $"
-                           value="price" />
+                           value="price" required/>
                     <span></span>
                 </div>
             </div>
@@ -45,8 +46,7 @@
                     <label for="about">About</label>
                     <input type="text"
                            class="form-control my-2"
-                           id="about"
-                           name="about"
+                           asp-for="@Model.Description"
                            placeholder="About"
                            value="about" />
                     <span></span>
@@ -54,8 +54,7 @@
                 <div class="form-group">
                     <label for="img">Food Image</label>
                     <input type="file"
-                           id="image"
-                           name="image"
+                           asp-for="@Model.Photo"
                            placeholder="Enter Image"
                            class="form-control my-2" />
                     <span></span>
@@ -63,6 +62,6 @@
             </div>
         </div>
         <button type="submit" class="btn btn-primary ml-2">Submit</button>
-        <a href="./list.html" class="btn btn-secondary">Back</a>
+        <a asp-action="List" class="btn btn-secondary">Back</a>
     </form>
 </div>

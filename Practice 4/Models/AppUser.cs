@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Practice_4.Models
@@ -12,6 +13,9 @@ namespace Practice_4.Models
         [NotMapped]
         public string Image { get; set; }
         public ProfilePhoto ProfilePhoto { get; set; }
-        
+        [NotMapped]
+        [Required,DataType(DataType.Password)]
+        public string NewPassword { get; set; }
+
     }
 }

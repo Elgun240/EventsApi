@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "H98hs2qeHSSn03Os78mGKn4T4mXY1eEhgHPJ50tYxS4=",
+  "Hash": "TQv1htOymgUIxoqIVXhP1uzITo4FULF7NzoOe/c45q4=",
   "Source": "Practice 4",
   "BasePath": "_content/Practice 4",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Practice 4\\wwwroot",
       "Source": "Practice 4",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Practice 4.styles.css",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Practice 4.styles.css",
       "SourceId": "Practice 4",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "Practice 4.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Practice 4.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Practice 4.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Practice 4.bundle.scp.css",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Practice 4.bundle.scp.css",
       "SourceId": "Practice 4",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "Practice 4.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Practice 4.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Practice 4.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\category\\add_cat.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\category\\add_cat.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/category/add_cat.html",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\category\\add_cat.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\category\\edit.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\category\\edit.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/category/edit.html",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\category\\edit.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\category\\list.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\category\\list.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/category/list.html",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\category\\list.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\dashboard.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\dashboard.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/dashboard.html",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\dashboard.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\login.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\login.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/login.html",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\login.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\menu\\add_menu.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\menu\\add_menu.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/menu/add_menu.html",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\menu\\add_menu.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\menu\\edit.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\menu\\edit.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/menu/edit.html",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\menu\\edit.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\menu\\list.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\menu\\list.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/menu/list.html",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\menu\\list.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\orders\\list.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\orders\\list.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/orders/list.html",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\orders\\list.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\orders\\processOrder.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\orders\\processOrder.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/orders/processOrder.html",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\orders\\processOrder.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\partials\\footer.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\partials\\footer.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/partials/footer.html",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\partials\\footer.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\partials\\header.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\partials\\header.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/partials/header.html",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\partials\\header.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\store\\add_res.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\store\\add_res.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/store/add_res.html",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\store\\add_res.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\store\\edit.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\store\\edit.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/store/edit.html",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\store\\edit.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\store\\list.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\store\\list.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/store/list.html",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\store\\list.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\user\\add_user.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\user\\add_user.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/user/add_user.html",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\user\\add_user.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\user\\edit.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\user\\edit.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/user/edit.html",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\user\\edit.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\admin\\user\\list.html",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\admin\\user\\list.html",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "admin/user/list.html",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\user\\list.html"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap.css",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/bootstrap.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap.css.map",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap.min.css",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap.min.css.map",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-grid.css",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-grid.css.map",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-grid.min.css",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-reboot.css",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-reboot.css.map",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-reboot.min.css",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\dashboard.css",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\dashboard.css",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/dashboard.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\dashboard.css"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\profile.css",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\profile.css",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/profile.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\profile.css"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\style.css",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\css\\style.css",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/css/style.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\img\\bfbrg.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\img\\bfbrg.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/img/bfbrg.jpg",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\img\\bfbrg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\img\\snwbg.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\img\\snwbg.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/img/snwbg.jpg",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\img\\snwbg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\img\\spaghetti-bg.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\img\\spaghetti-bg.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/img/spaghetti-bg.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\img\\spaghetti-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\aw-arancini-articleLarge.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\aw-arancini-articleLarge.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/aw-arancini-articleLarge.jpg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\aw-arancini-articleLarge.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\chimichangs.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\chimichangs.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/chimichangs.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\chimichangs.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\choppsuey.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\choppsuey.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/choppsuey.jpg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\choppsuey.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\curywurst.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\curywurst.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/curywurst.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\curywurst.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\delish-fettuccine-alfredo.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\delish-fettuccine-alfredo.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/delish-fettuccine-alfredo.jpg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\delish-fettuccine-alfredo.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\detroitpzz.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\detroitpzz.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/detroitpzz.jpg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\detroitpzz.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\ffries.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\ffries.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/ffries.jpg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\ffries.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\fried-ravioli-bread-crumbs.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\fried-ravioli-bread-crumbs.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/fried-ravioli-bread-crumbs.jpg",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\fried-ravioli-bread-crumbs.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\hdoggg.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\hdoggg.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/hdoggg.jpg",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\hdoggg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\hmbrger.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\hmbrger.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/hmbrger.jpg",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\hmbrger.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\igcsan.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\igcsan.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/igcsan.jpg",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\igcsan.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\mldessert.jpeg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\mldessert.jpeg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/mldessert.jpeg",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\mldessert.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\mozzsticks.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\mozzsticks.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/mozzsticks.jpg",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\mozzsticks.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\Pappardelle.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\Pappardelle.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/Pappardelle.jpg",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\Pappardelle.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\philly-cheesesteak-3c4be15.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\philly-cheesesteak-3c4be15.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/philly-cheesesteak-3c4be15.jpg",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\philly-cheesesteak-3c4be15.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\poboy.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\poboy.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/poboy.jpg",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\poboy.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\reubensandw.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\reubensandw.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/reubensandw.jpg",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\reubensandw.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\roast-beef-sandwich.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\roast-beef-sandwich.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/roast-beef-sandwich.jpg",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\roast-beef-sandwich.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\spCarbonara.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\spCarbonara.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/spCarbonara.jpg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\spCarbonara.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\sschicken.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\sschicken.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/sschicken.jpg",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\sschicken.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\stkkk.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\stkkk.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/stkkk.jpg",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\stkkk.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\aw-arancini-articleLarge.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\aw-arancini-articleLarge.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/aw-arancini-articleLarge.jpg",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\aw-arancini-articleLarge.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\chimichangs.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\chimichangs.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/chimichangs.jpg",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\chimichangs.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\choppsuey.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\choppsuey.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/choppsuey.jpg",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\choppsuey.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\curywurst.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\curywurst.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/curywurst.jpg",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\curywurst.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\delish-fettuccine-alfredo.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\delish-fettuccine-alfredo.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/delish-fettuccine-alfredo.jpg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\delish-fettuccine-alfredo.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\detroitpzz.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\detroitpzz.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/detroitpzz.jpg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\detroitpzz.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\ffries.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\ffries.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/ffries.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\ffries.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\fried-ravioli-bread-crumbs.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\fried-ravioli-bread-crumbs.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/fried-ravioli-bread-crumbs.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\fried-ravioli-bread-crumbs.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\hdoggg.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\hdoggg.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/hdoggg.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\hdoggg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\hmbrger.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\hmbrger.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/hmbrger.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\hmbrger.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\igcsan.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\igcsan.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/igcsan.jpg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\igcsan.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\mldessert.jpeg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\mldessert.jpeg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/mldessert.jpeg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\mldessert.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\mozzsticks.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\mozzsticks.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/mozzsticks.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\mozzsticks.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\Pappardelle.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\Pappardelle.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/Pappardelle.jpg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\Pappardelle.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\philly-cheesesteak-3c4be15.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\philly-cheesesteak-3c4be15.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/philly-cheesesteak-3c4be15.jpg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\philly-cheesesteak-3c4be15.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\poboy.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\poboy.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/poboy.jpg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\poboy.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\reubensandw.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\reubensandw.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/reubensandw.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\reubensandw.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\roast-beef-sandwich.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\roast-beef-sandwich.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/roast-beef-sandwich.jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\roast-beef-sandwich.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\spCarbonara.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\spCarbonara.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/spCarbonara.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\spCarbonara.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\sschicken.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\sschicken.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/sschicken.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\sschicken.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\stkkk.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\stkkk.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/stkkk.jpg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\stkkk.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\turkey-fajitas.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\turkey-fajitas.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/thumb/turkey-fajitas.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\thumb\\turkey-fajitas.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\turkey-fajitas.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\dishesh\\turkey-fajitas.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/dishesh/turkey-fajitas.jpg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\dishesh\\turkey-fajitas.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\no-image.png",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\no-image.png",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/no-image.png",
       "AssetKind": "All",
@@ -1428,10 +1428,129 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\no-image.png"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\artisan-cafe-berea-ky.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\259037c6-3657-4d67-9a10-5be5f9c620d6works.png.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/259037c6-3657-4d67-9a10-5be5f9c620d6works.png.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\259037c6-3657-4d67-9a10-5be5f9c620d6works.png.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\39a3abef-9ce7-4009-8e76-2b2c96949cdbbank.png",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/39a3abef-9ce7-4009-8e76-2b2c96949cdbbank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\39a3abef-9ce7-4009-8e76-2b2c96949cdbbank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\5e96e362-8cd9-42b1-b2f9-49627609ccadbank.png",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/5e96e362-8cd9-42b1-b2f9-49627609ccadbank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\5e96e362-8cd9-42b1-b2f9-49627609ccadbank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\857cd424-d705-48fd-b5eb-ae162e3d07b3bank.png",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/857cd424-d705-48fd-b5eb-ae162e3d07b3bank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\857cd424-d705-48fd-b5eb-ae162e3d07b3bank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\8a23bded-7dd7-4d47-927a-de9128aa8e76bank.png",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/8a23bded-7dd7-4d47-927a-de9128aa8e76bank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\8a23bded-7dd7-4d47-927a-de9128aa8e76bank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\8db55890-51d8-429d-982a-461f9cf0eca6bank.png",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/8db55890-51d8-429d-982a-461f9cf0eca6bank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\8db55890-51d8-429d-982a-461f9cf0eca6bank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\9efe2370-60f0-4ca4-b50c-31a1120aa847bank.png",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/9efe2370-60f0-4ca4-b50c-31a1120aa847bank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\9efe2370-60f0-4ca4-b50c-31a1120aa847bank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\artisan-cafe-berea-ky.jpg",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/artisan-cafe-berea-ky.jpg",
       "AssetKind": "All",
@@ -1445,10 +1564,112 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\artisan-cafe-berea-ky.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\grestro.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\cadb460f-7391-4347-b7d3-3a8e2e6fa91bbank.png",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/cadb460f-7391-4347-b7d3-3a8e2e6fa91bbank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\cadb460f-7391-4347-b7d3-3a8e2e6fa91bbank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\cd2d21b6-0801-4d36-a6d1-0382abc0c860bank.png",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/cd2d21b6-0801-4d36-a6d1-0382abc0c860bank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\cd2d21b6-0801-4d36-a6d1-0382abc0c860bank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\d67c5896-06f3-4e47-be78-a2fde856fb3033f4832a-0c3e-41c6-9a2a-92e1219b40c3502647470c8b655c9b09538c550a3f3f.png",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/d67c5896-06f3-4e47-be78-a2fde856fb3033f4832a-0c3e-41c6-9a2a-92e1219b40c3502647470c8b655c9b09538c550a3f3f.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\d67c5896-06f3-4e47-be78-a2fde856fb3033f4832a-0c3e-41c6-9a2a-92e1219b40c3502647470c8b655c9b09538c550a3f3f.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\db6d87a0-6cfa-4dee-a14d-551c13af562ebank.png",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/db6d87a0-6cfa-4dee-a14d-551c13af562ebank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\db6d87a0-6cfa-4dee-a14d-551c13af562ebank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\ef87dd66-48ec-43f9-8ae1-7931a8d4c9e1bank.png",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/ef87dd66-48ec-43f9-8ae1-7931a8d4c9e1bank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\ef87dd66-48ec-43f9-8ae1-7931a8d4c9e1bank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\f1a4978d-7d9e-4600-90a6-6329f6ad3b02bank.png",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
+      "BasePath": "_content/Practice 4",
+      "RelativePath": "assets/imgs/uploads/restaurant/f1a4978d-7d9e-4600-90a6-6329f6ad3b02bank.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\f1a4978d-7d9e-4600-90a6-6329f6ad3b02bank.png"
+    },
+    {
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\grestro.jpg",
+      "SourceId": "Practice 4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/grestro.jpg",
       "AssetKind": "All",
@@ -1462,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\grestro.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\hlmg.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\hlmg.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/hlmg.jpg",
       "AssetKind": "All",
@@ -1479,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\hlmg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\icnr.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\icnr.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/icnr.jpg",
       "AssetKind": "All",
@@ -1496,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\icnr.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\artisan-cafe-berea-ky.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\artisan-cafe-berea-ky.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/thumb/artisan-cafe-berea-ky.jpg",
       "AssetKind": "All",
@@ -1513,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\artisan-cafe-berea-ky.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\grestro.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\grestro.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/thumb/grestro.jpg",
       "AssetKind": "All",
@@ -1530,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\grestro.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\hlmg.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\hlmg.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/thumb/hlmg.jpg",
       "AssetKind": "All",
@@ -1547,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\hlmg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\icnr.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\icnr.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/thumb/icnr.jpg",
       "AssetKind": "All",
@@ -1564,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\icnr.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\TOWNSEND.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\TOWNSEND.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/thumb/TOWNSEND.jpg",
       "AssetKind": "All",
@@ -1581,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\TOWNSEND.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\treehouserestr.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\treehouserestr.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/thumb/treehouserestr.jpg",
       "AssetKind": "All",
@@ -1598,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\treehouserestr.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\vrfnb.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\vrfnb.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/thumb/vrfnb.jpg",
       "AssetKind": "All",
@@ -1615,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\thumb\\vrfnb.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\TOWNSEND.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\TOWNSEND.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/TOWNSEND.jpg",
       "AssetKind": "All",
@@ -1632,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\TOWNSEND.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\treehouserestr.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\treehouserestr.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/treehouserestr.jpg",
       "AssetKind": "All",
@@ -1649,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\treehouserestr.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\vrfnb.jpg",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\imgs\\uploads\\restaurant\\vrfnb.jpg",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/imgs/uploads/restaurant/vrfnb.jpg",
       "AssetKind": "All",
@@ -1666,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\uploads\\restaurant\\vrfnb.jpg"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.bundle.js",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1683,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.bundle.js.map",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1700,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1717,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1734,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.js",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/js/bootstrap.js",
       "AssetKind": "All",
@@ -1751,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.js.map",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1768,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.min.js",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1785,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\bootstrap.min.js.map",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1802,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\jquery-3.6.0.min.js",
+      "Identity": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\assets\\js\\jquery-3.6.0.min.js",
       "SourceId": "Practice 4",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Backend again(Console App)\\Practice 4\\Practice 4\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Luna\\Desktop\\Practice 4\\Practice 4\\wwwroot\\",
       "BasePath": "_content/Practice 4",
       "RelativePath": "assets/js/jquery-3.6.0.min.js",
       "AssetKind": "All",

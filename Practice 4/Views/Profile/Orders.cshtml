@@ -1,4 +1,4 @@
-﻿
+﻿@model OrderVM
 @{
     ViewData["Title"] = "Orders";
 }
@@ -20,36 +20,49 @@
                         <th>Action</th>
                     </tr>
                 </thead>
-                <tbody id="myTable">
-                    <tr>
-                        <td>dish_name</td>
-                        <td>quantity</td>
-                        <td>$90</td>
-                        <td>
-                            <button type="button"
-                                    class="btn btn-secondary"
-                                    style="font-weight: bold">
-                                <i class="fas fa-bars"></i> Dispatch
-                            </button>
-                            <button type="button" class="btn btn-warning">
-                                <span class="fa fa-cog fa-spin" aria-hidden="true"></span>
-                                On Your Way!
-                            </button>
-                            <button type="button" class="btn btn-danger">
-                                <i class="far fa-times-circle"></i> Cancelled
-                            </button>
-                        </td>
-                        <td>{Order date}</td>
-                        <td>
-                            <a href="javascript:void(0);"
-                               onclick=""
-                               class="btn btn-danger"><i class="fas fa-trash-alt"></i> Cancel</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="6">Records not found</td>
-                    </tr>
-                </tbody>
+               @foreach (var item in Model.PaidOrders)
+                {
+                    <tbody id="myTable">
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.Price</td>
+                            <td>
+                                @if (item.Status == Status.Dispatch)
+                                {
+                                    <button type="button"
+                                            class="btn btn-secondary"
+                                            style="font-weight: bold">
+                                        <i class="fas fa-bars"></i> Dispatch
+                                    </button>
+                                }
+
+
+                                @if (item.Status == Status.OnWay)
+                                {
+                                    <button type="button" class="btn btn-warning">
+                                        <span class="fa fa-cog fa-spin" aria-hidden="true"></span>
+                                        On Your Way!
+                                    </button>
+                                
+                                }
+                                @if (item.Status == Status.Cancelled)
+                                {
+                                    <button type="button" class="btn btn-danger">
+                                        <i class="far fa-times-circle"></i> Cancelled
+                                    </button>
+                                }
+                            </td>
+                            <td>@item.OrderDate</td>
+                            <td>
+                                <a asp-action="CancelOrder" asp-route-id="@item.Id"
+                                   onclick=""
+                                   class="btn btn-danger"><i class="fas fa-trash-alt"></i> Cancel</a>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                }
             </table>
         </div>
         <h2 class="text-center">All Orders</h2>
@@ -65,26 +78,37 @@
                         <th>Invoice</th>
                     </tr>
                 </thead>
-                <tbody id="myTable">
-                    <tr>
-                        2023-09-10
-                        <td>{orderDate}</td>
-                        <td>dish name</td>
-                        <td>quantity</td>
-                        <td>$55</td>
-                        <td>
-                            <button type="button" class="btn btn-success">
-                                <i class="fas fa-check"></i> Delivered
-                            </button>
-                        </td>
-                        <td>
-                            <a asp-action="Invoice" class="btn btn-info"><i class="fas fa-file-alt"></i> Invoice</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="5">Records not found</td>
-                    </tr>
+              
+                    <tbody id="myTable">
+                    @DateTime.Now
+                    @if (Model.DeliveredOrders == null)
+                    {
+                        <tr>
+                            <td colspan="5">Records not found</td>
+                        </tr>
+                    }
+                    @foreach (var item in Model.DeliveredOrders)
+                    {
+                        <tr>
+                           
+                            <td>@item.OrderDate</td>
+                            <td>@item.Name</td>
+                            <td>@item.Quantity</td>
+                            <td>$@item.Price</td>
+                            <td>
+                                <button type="button" class="btn btn-success">
+                                    <i class="fas fa-check"></i> Delivered
+                                </button>
+                            </td>
+                            <td>
+                                <a asp-action="Invoice" class="btn btn-info"><i class="fas fa-file-alt"></i> Invoice</a>
+                            </td>
+                        </tr>
+                       
+                    }
+                   
                 </tbody>
+               
             </table>
         </div>
     </div>
