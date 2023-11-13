@@ -32,7 +32,7 @@
                        <p class="card-text mb-0">@item.OenDays</p>
                         <p class="card-text">@item.OpeningTime - @item.ClosingTime</p>
                         <hr />
-                        <a asp-action="Dish" class="btn btn-primary" asp-route-id="@item.Id">View Menu</a>
+                        <a asp-action="Dish" asp-controller="Restaurants" class="btn btn-primary" asp-route-id="@item.Id">View Menu</a>
                     </div>
                 </div>
             

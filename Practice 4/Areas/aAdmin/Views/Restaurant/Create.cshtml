@@ -1,0 +1,149 @@
+﻿@model RestaurantVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="conatiner">
+    <form method="post" asp-action="Create"  class="form-container mx-auto shadow-container"
+          
+          style="width: 90%"
+          enctype="multipart/form-data">
+        <h3 class="mb-3 p-2 text-center mb-3">Add New Restaurant Details</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label">Restaurant Name</label>
+                    <input type="text"
+                           asp-for="@Model.Name"
+                           class="form-control"
+                           placeholder="Add Restaurant Name"
+                           value="@Model.Name" />
+                    <span asp-validation-for="@Model.Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Bussiness E-mail</label>
+                    <input type="text"
+                           asp-for="@Model.Email"
+                           class="form-control form-control-danger"
+                           placeholder="@Model.Email"
+                           value="email" required />
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Contact</label>
+                    <input type="number"
+                          asp-for="@Model.Contact"
+                           class="form-control"
+                           placeholder="@Model.Contact"
+                           value="@Model.Contact" required/>
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Website URL</label>
+                    <input type="text"
+                           asp-for="@Model.URL"
+                           class="form-control form-control-danger"
+                           placeholder=" @Model.URL"
+                           value="@Model.URL" />
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label">Opening Time</label>
+                    <select asp-for="@Model.OpeningTime" class="form-control" required>
+                        <option value="">--Select your Hours--</option>
+                        <option value="6am">6am</option>
+                        <option value="7am">7am</option>
+                        <option value="8am">8am</option>
+                        <option value="9am">9am</option>
+                        <option value="10am">10am</option>
+                        <option value="11am">11am</option>
+                         <input hidden  asp-for="@Model.Categories" class="form-control" required/>
+                    </select>
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Closing Time</label>
+                    <select asp-for="@Model.ClosingTime" class="form-control" required>
+                        <option value="">--Select your Hours--</option>
+                        <option value="3pm">3pm</option>
+                        <option value="4pm">4pm</option>
+                        <option value="5pm">5pm</option>
+                        <option value="6pm">6pm</option>
+                        <option value="7pm">7pm</option>
+                        <option value="8pm">8pm</option>
+                        <option value="9pm">9pm</option>
+                        <option value="10pm">10pm</option>
+                        <option value="11pm">11pm</option>
+                    </select>
+                    <span></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Open Days</label>
+                    <select asp-for="@Model.OenDays" class="form-control"required>
+                        <option value="">--Select your Days--</option>
+                        <option value="mon-tue">mon-tue</option>
+                        <option value="mon-wed">mon-wed</option>
+                        <option value="mon-thu">mon-thu</option>
+                        <option value="mon-fri">mon-fri</option>
+                        <option value="mon-sat">mon-sat</option>
+                        <option value="24hr-x7">24hr-x7</option>
+                    </select>
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label for="image">Image</label>
+                    <input type="file" asp-for="@Model.Photo" class="form-control" required/>
+                    <span asp-validation-for="@Model.Photo" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+          
+        <div class="form-group">
+            <label class="control-label">Select Category</label>
+            <select asp-for="@Model.CategoryId" class="form-control" required>
+                <option value="">--Select Category--</option>
+               @foreach (var item in Model.Categories)
+                {
+                    <option value="@item.Id">@item.Name</option>
+                }
+            </select>
+            <span></span>
+        </div>
+        <h3 class="box-title m-t-40">Description</h3>
+        <div class="form-group">
+            <textarea asp-for="@Model.Description"
+                      type="text"
+                      style="height: 70px"
+                      class="form-control"
+                      required>
+Description</textarea>
+        <h3 class="box-title m-t-40">Address</h3>
+        <div class="form-group">
+            <textarea asp-for="@Model.Adress"
+                      type="text"
+                      style="height: 70px"
+                      class="form-control"
+            required>
+address</textarea>
+            <span></span>
+        </div
+ 
+        <div class="form-actions">
+            <input type="submit"
+                   id="btn"
+                   name="submit"
+                   class="btn btn-success"
+                   value="Save" />
+
+           @* <button type="submit"
+                    id="btn"
+                    name="submit"
+                    class="btn btn-success"
+                    value="Save"></button>*@
+            <a asp-action="List"  class="btn btn-danger">Cancel</a>
+        </div>
+    </form>
+</div>

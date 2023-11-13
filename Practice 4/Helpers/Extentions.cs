@@ -24,7 +24,8 @@
     public enum Roles
     {
         Admin,
-        Member
+        Member,
+        Restaurant
     }
     public enum Statuses
     {

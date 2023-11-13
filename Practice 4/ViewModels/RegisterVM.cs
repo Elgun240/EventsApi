@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Practice_4.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace Practice_4.ViewModels
 {
@@ -18,6 +19,13 @@ namespace Practice_4.ViewModels
         public string Phone { get; set; }
         [Required]
         public string Adress { get; set; }
+        [Required]
+        public string Role { get; set; }
+        [Required]
+        public string Restaurant { get; set; }
+        [Required]
+        public List<Restaurant> Restaurants { get; set; }
+
 
     }
 }

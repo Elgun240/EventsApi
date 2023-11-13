@@ -6,5 +6,7 @@ namespace Practice_4.ViewModels
     {
         public Restaurant Restaurant { get; set; }
         public List<Product> Products { get; set; }
+        
+       
     }
 }

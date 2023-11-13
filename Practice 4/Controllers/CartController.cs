@@ -52,6 +52,7 @@ namespace Practice_4.Controllers
         [HttpPost]
         public async Task<IActionResult> ChangeQuantity(int count, int productid, int resId)
         {
+
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var order = await _db.Orders.FirstOrDefaultAsync(x => x.AppUserId == user.Id && x.Id == productid && x.RestaurantId == resId);
 
@@ -86,7 +87,7 @@ namespace Practice_4.Controllers
 
             //    return View(orderVM);
             var appuser = await _userManager.GetUserAsync(User);
-            var orders = await _db.Orders.Where(o => o.AppUserId == appuser.Id).ToListAsync();
+            List<Order> orders = await _db.Orders.Where(o => o.AppUserId == appuser.Id).Include(o=>o.Restaurant).ToListAsync();
             CheckoutVM checkoutVM = new CheckoutVM()
             {
                 Orders = orders,
@@ -121,6 +122,7 @@ namespace Practice_4.Controllers
                     
                     PaidOrder paidOrder = new PaidOrder()
                     {
+                        RestaurantId = item.RestaurantId,
                         Price = item.Price,
                         Quantity = item.Quatntity, 
                         Name = item.DishName,

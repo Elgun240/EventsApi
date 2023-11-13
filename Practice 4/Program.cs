@@ -1,12 +1,19 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Practice_4.DAL;
+using Practice_4.Helpers;
 using Practice_4.Models;
+using SendGrid.Helpers.Mail;
+using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+//builder.Services.Configure<EmailSettings>(Configuration.GetSection("EmailSettings"));
+//builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddControllersWithViews();
+
 builder.Services.AddIdentity<AppUser, IdentityRole>(IdentityOption =>
 {
     IdentityOption.Password.RequireUppercase = true;
@@ -23,6 +30,7 @@ builder.Services.AddDbContext<AppDbContext>(option =>
 {
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -39,11 +47,19 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+//app.UseEndpoints(endpoints =>
+//{
+//    endpoints.MapControllerRoute(
+//      name: "areas",
+//      pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+//    );
+   
+//});
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
       name: "areas",
-      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+      pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
     );
 });
 app.MapControllerRoute(

@@ -1,0 +1,11 @@
+﻿@model List<Order>
+
+<div id="cart">
+    <h2>Ваша корзина:</h2>
+    <ul>
+        @foreach (var order in Model)
+        {
+            <li>@order.DishName - @order.Price</li>
+        }
+    </ul>
+</div>

@@ -63,6 +63,10 @@ namespace Practice_4.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> MyProfile(ProfileVM profileVM)
         {
+            if (profileVM == null)
+            {
+                return NotFound();
+            }
             AppUser user = await _userManager.GetUserAsync(User);
             user.Name = profileVM.Firstname;
             user.Surname = profileVM.Lastname;
@@ -119,6 +123,10 @@ namespace Practice_4.Controllers
                DeliveredOrders = await _db.PaidOrders.Where(d=>d.Status==Status.Delivered).ToListAsync(),
 
             };
+            if (TempData.ContainsKey("Error"))
+            {
+                ModelState.AddModelError("Error", TempData["Error"].ToString());
+            }
             return View(orderVM);
         }
         public IActionResult Invoice()
@@ -132,8 +140,13 @@ namespace Practice_4.Controllers
                 return NotFound();
             }
             var order = await _db.PaidOrders.FirstOrDefaultAsync(o => o.Id == id);
-           
+            if (order == null)
+            {
+                return NotFound();      
+            }
+            order.Status = Status.Cancelled;
             await _db.SaveChangesAsync();
+            TempData["Error"] = "Order has been cancelled!";
             return RedirectToAction("Orders");
         }
 

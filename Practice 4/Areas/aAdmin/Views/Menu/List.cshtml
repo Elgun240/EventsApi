@@ -1,0 +1,86 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "List";
+}
+
+<div class="container mt-3">
+    <div class="container shadow-container">
+        @if (ViewData.ModelState.ContainsKey("Success"))
+        {
+            <div class="alert alert-success">@ViewData.ModelState["Success"].Errors.FirstOrDefault().ErrorMessage</div>
+
+        }
+        @if (ViewData.ModelState.ContainsKey("Error"))
+        {
+            <div class="alert alert-danger  ">@ViewData.ModelState["Error"].Errors.FirstOrDefault().ErrorMessage</div>
+
+        }
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+                <h2>All Menu Details</h2>
+            </div>
+            <input class="form-control mb-3"
+                   id="myInput"
+                   type="text"
+                   placeholder="Search .."
+                   style="width: 50%" />
+        </div>
+        <div class="table-responsive-sm">
+            <table class="table table-bordered table-hover table-striped table-responsive">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Dish Name</th>
+                        <th>About</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+               @foreach (var item in Model)
+                {
+                    <tbody id="myTable">
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            @if (item.Description.Length > 20)
+                            {
+
+                                <td>
+                                    <p id="cmt_@item.Id">@item.Description.Substring(0,20) </p>
+                                    <span id="opn_@item.Id" onclick="showFull('opn_@item.Id', 'clp_@item.Id','cmt_@item.Id', `@item.Description` )">...</span>
+                                    <span id="clp_@item.Id" style="display:none" onclick="Collapse('clp_@item.Id','opn_@item.Id','cmt_@item.Id' )">-</span>
+                                </td>
+                            }
+                            <td>@item.Price</td>
+                            <td>
+                                <a asp-action="Manage" asp-route-id="@item.Id" class="btn btn-info mb-1"><i class="fas fa-edit mr-1"></i>Edit</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger"><i class="fas fa-trash-alt"></i> Delete</a>
+                            </td>
+                        </tr>
+                       
+                    </tbody>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+<script>
+    function Collapse(collapseId, openId, Id) {
+        let p = document.getElementById(Id);
+        let newtext = p.innerText.substring(0, 20);
+        p.innerText = newtext;
+        p.innerHTML = newtext;
+        document.getElementById(collapseId).style.display = "none";
+        document.getElementById(openId).style.display = "block";
+    }
+    function showFull(openId, collapseId, Id, text) {
+        let p = document.getElementById(Id);
+        p.innerText = text;
+        p.innerHTML = text;
+        document.getElementById(openId).style.display = "none";
+        document.getElementById(collapseId).style.display = "block";
+
+    }
+</script>
+
+

@@ -1,0 +1,101 @@
+﻿@model List<Comment>
+@{
+    ViewData["Title"] = "Index";
+    var i = 1;
+}
+   
+
+
+<!-- Start content -->
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-title-box">
+                    <h4 class="page-title">Manage Approved Comments</h4>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!-- end row -->
+        <div class="row">
+            <div class="col-sm-6">
+                @if (ViewData.ModelState.ContainsKey("Success"))
+                {
+                    <div class="alert alert-success">@ViewData.ModelState["Success"].Errors.FirstOrDefault().ErrorMessage</div>
+
+                }
+                @if (ViewData.ModelState.ContainsKey("Error"))
+                {
+                    <div class="alert alert-danger  ">@ViewData.ModelState["Error"].Errors.FirstOrDefault().ErrorMessage</div>
+
+                }
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="demo-box m-t-20">
+                        <div class="table-responsive">
+                            <table class="table m-0 table-colored-bordered table-bordered-primary">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Email Id</th>
+                                        <th>Title</th>
+                                        <th width="300">Comment</th>
+                                        <th width="300">Status</th>
+                                                          
+                                        <th>Posting Date</th>
+                                        <th>Action</th>
+                                       
+                                    </tr>
+                                </thead>
+
+                                @foreach (var item in Model)
+                                {
+                                   
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">@i</th>
+                                            <td>@item.AppUser.Name</td>
+                                            <td>@item.AppUser.Email</td>
+                                            
+                                            <td>@item.Title</td>
+                                            <td>@item.Description</td>
+                                            <td>@item.Status</td>
+                                            <td>@item.CreateTime</td>
+                                            <td> 
+                                                <a asp-action="SendMail" asp-controller="Email"  asp-route-id="@item.AppUser.Id" asp-route-ComId="@item.Id" >
+                                                   
+                                                    <i class="ion-email" 
+                                                       style="color: #00008B"></i>
+                                                </a>
+                                                &nbsp;<a asp-action="Delete" asp-route-id="@item.Id">
+                                                    <i class="fa fa-trash"
+                                                       style="color: #f05050"></i>
+                                                </a>
+                                               
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    i++;
+                                }
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--- end row -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="demo-box m-t-20">
+                        <div class="m-b-30"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+    </div>
+    <!-- content -->

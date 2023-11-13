@@ -1,0 +1,67 @@
+﻿@model ProcessVM
+@{
+
+    ViewData["Title"] = "Process";
+}
+
+<div class="container table-responsive m-t-20">
+    <h2 class="py-3 text-center">View User's Order</h2>
+    <table id="myTable"
+           class="table table-bordered table-hover table-striped dataTable">
+
+        <tbody>
+            <tr>
+                <td><strong>Ordered By:</strong></td>
+                <td>@Model.PaidOrder.Name</td>
+            </tr>
+            <tr>
+                <td><strong>Food Item:</strong></td>
+                <td>@Model.PaidOrder.Name</td>
+            </tr>
+            <tr>
+                <td><strong>Quantity:</strong></td>
+                <td>@Model.PaidOrder.Quantity</td>
+            </tr>
+            <tr>
+                <td><strong>Price:</strong></td>
+                <td>@Model.PaidOrder.Price</td>
+            </tr>
+            <tr>
+                <td><strong>Address:</strong></td>
+                <td>@Model.PaidOrder.Price</td>
+            </tr>
+            <tr>
+                <td><strong>Order Date:</strong></td>
+                <td>@Model.PaidOrder.OrderDate</td>
+            </tr>
+            <form method="post" asp-action="Process">
+            <tr>
+                <td><strong>Select Order Status:</strong></td>
+                <td>
+                    <select asp-for="@Model.Status" class="form-control" name="status">
+
+
+                            @foreach (var item in Enum.GetNames(typeof(Status)))
+                            {
+                            <option value="@Enum.Parse(typeof(Status), item)">@item</option>
+                            }
+
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button asp-route-id="@Model.PaidOrder.Id" class="btn btn-primary btn-block" type="submit">
+                        Submit
+                    </button>
+                </td>
+            </tr>
+            </form>
+        </tbody>
+
+    </table>
+</div>
+
+

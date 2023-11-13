@@ -65,13 +65,14 @@
                     <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].Price" value="@item.Price" />
                     <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].Quatntity" value="@item.Quatntity" />
                     <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].Subtotal" value="@item.SubTotal" />
+                    <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].RestaurantId" value="@item.RestaurantId" />
                 }
                 <p class="lead mb-0">Cash On Delivery</p>
                 <div class="container p-2 mb-3" style="background: #e5e5e5">
                     Pay with Cash on Delivery
                 </div>
                 <div>
-                    <a href="./cart.html" class="btn btn-warning"><i class="fas fa-angle-left"></i> Back to cart</a>
+                    <a asp-action="Index" class="btn btn-warning"><i class="fas fa-angle-left"></i> Back to cart</a>
                     <button type="submit" class="btn btn-success">
                         Place Order <i class="fas fa-angle-right"></i>
                     </button>

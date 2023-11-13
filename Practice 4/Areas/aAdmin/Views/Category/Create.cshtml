@@ -1,0 +1,20 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="container shadow-container">
+    <h2 class="p-2 text-center">Add Restaurant Category</h2>
+    <form method="post" asp-action="Create" class="container my-3">
+        <div class="form-group">
+            <label for="category">Category</label>
+            <input type="text"
+                   asp-for="@Model.Name"
+                   class="form-control"
+                   placeholder="Enter Category"
+                  />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary mr-2">Submit</button>
+        <a class="btn btn-secondary" href="./list.html">Back</a>
+    </form>
+</div>

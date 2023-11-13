@@ -16,6 +16,7 @@ namespace Practice_4.DAL
         public DbSet<Category> Categories { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<PaidOrder> PaidOrders { get; set; }
+        public DbSet<Comment> Comments { get; set; }
 
     }
 }

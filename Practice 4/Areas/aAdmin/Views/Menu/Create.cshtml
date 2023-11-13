@@ -1,0 +1,72 @@
+﻿@model EditDishesVM
+@{
+    var i = 1;
+    ViewData["Title"] = "Create";
+}
+<div class="conatiner">
+    <form asp-action="Create"
+    method="post"
+          class="form-container mx-auto shadow-container"
+          style="width: 80%"
+          enctype="multipart/form-data">
+        <h3 class="mb-3 text-center">Add Food Items</h3>
+        <div class="form-group">
+            <label class="control-label">Select Restaurant</label>
+            <select asp-for="@Model.RestaurantID" class="form-control" required>
+                <option>--Select Restaurant--</option>
+                @foreach (var item in Model.Restaurants)
+                {
+                    if (i == 1)
+                    {
+                        <option selected value="@item.Id">@item.Name</option>
+                    }
+                    i++;
+                }
+            </select>
+            <span></span>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="name">Dish Name</label>
+                    <input type="text"
+                           class="form-control my-2"
+                           asp-for="@Model.Name"
+                           placeholder="Enter Dish name"
+                           value="name" required/>
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label for="price">Price</label>
+                    <input type="number"
+                           class="form-control my-2"
+                           asp-for="@Model.Price"
+                           placeholder="Enter Price $"
+                           value="price" required/>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="about">About</label>
+                    <input type="text"
+                           class="form-control my-2"
+                           asp-for="@Model.Description"
+                           placeholder="About"
+                           value="about"  required/>
+                    <span></span>
+                </div>
+                <div class="form-group">
+                    <label for="img">Food Image</label>
+                    <input type="file"
+                           asp-for="@Model.Photo"
+                           placeholder="Enter Image"
+                           class="form-control my-2" required/>
+                    <span class="text-danger" asp-validation-for="@Model.Photo"></span>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary ml-2">Submit</button>
+        <a asp-action="List" class="btn btn-secondary">Back</a>
+    </form>
+</div>

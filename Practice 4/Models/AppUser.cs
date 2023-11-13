@@ -16,6 +16,8 @@ namespace Practice_4.Models
         [NotMapped]
         [Required,DataType(DataType.Password)]
         public string NewPassword { get; set; }
+        public Restaurant? Restaurant { get; set; }
+        public int? RestaurantId { get; set; }
 
     }
 }

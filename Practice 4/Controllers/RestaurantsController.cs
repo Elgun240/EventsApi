@@ -34,18 +34,30 @@ namespace Practice_4.Controllers
         }
         public async Task<IActionResult> Dish(int Id)
         {
+            if(Id == null){
+                return NotFound();
+            }
             DishVM dishVM = new DishVM() 
             {
                 Restaurant= await _db.Restaurants.FirstOrDefaultAsync(r=>r.Id==Id),
                 Products  = await _db.Products.Where(p=>p.RestaurantID==Id).ToListAsync(),
                 
             };
+            if(dishVM.Restaurant == null || dishVM.Products==null) 
+            {
+            return NotFound();
+            }
 
             return View(dishVM);
         }
+     
         public async Task<IActionResult> AddToCart(int id)
         {
-            Product product =await  _db.Products.FirstOrDefaultAsync(p =>p.Id==id);
+            if (id == null)
+            {
+                return  NotFound();
+            }
+            Product product =await  _db.Products.Include(p=>p.Restaurant).FirstOrDefaultAsync(p =>p.Id==id);
             
             if (product==null)
             {
@@ -68,8 +80,39 @@ namespace Practice_4.Controllers
             };
            await  _db.Orders.AddAsync(order);
             await _db.SaveChangesAsync();
-            return RedirectToAction("Index", "Restaurants");
+            return RedirectToAction("Dish", "Restaurants" , new {id=product.RestaurantID});
         }
+        public async Task<IActionResult> AddToCartFromHome(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Product product = await _db.Products.FirstOrDefaultAsync(p => p.Id == id);
 
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            var appuser = await _userManager.GetUserAsync(User);
+
+            Order order = new Order()
+            {
+                DishName = product.Name,
+                Price = product.Price,
+                Quatntity = 1,
+                RestaurantId = product.RestaurantID,
+                Image = product.Image,
+                AppUserId = appuser.Id,
+                SubTotal = product.Price
+
+
+            };
+            await _db.Orders.AddAsync(order);
+            await _db.SaveChangesAsync();
+            return RedirectToAction("Index", "Home");
+        }
+       
     }
 }

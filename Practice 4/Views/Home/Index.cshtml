@@ -1,6 +1,7 @@
 ﻿@model HomeVM
 @{
     ViewData["Title"] = "Index";
+
 }
 
 <div id="slides" class="carousel slide carousel-cus" data-ride="carousel">
@@ -10,7 +11,7 @@
             <li data-target="#slides" data-slide-to="@i" @(i == 0 ? "class=active" : "")></li>
         }
     </ul>
-     
+
     <div class="carousel-inner">
         @for (int i = 0; i < Model.Sliders.Count; i++)
         {
@@ -24,10 +25,10 @@
                 </div>
             </div>
         }
-        
+
     </div>
 
-    
+
 </div>
 <div class="container-fluid padding">
     <div class="row text-center welcome">
@@ -83,12 +84,12 @@
 </div>
 <div class="container-fluid padding dish-card">
     <div class="row">
-         @foreach (var item in Model.Products)
-                {
-        <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
-           
+        @foreach (var item in Model.Products)
+        {
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+
                 <div class="card mb-4 shadow-sm">
-               
+
                     <img class="card-img-top"
                          src="~/assets/imgs/uploads/dishesh/thumb/@item.Image" />
                     <div class="card-body">
@@ -101,14 +102,27 @@
                         <p class="card-text">
                             @item.Description
                         </p>
-                        <a href="addToCart" class="btn btn-primary"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <a href="javascript:void(0);" data-product-id="@item.Id" class="add-to-cart-button btn btn-primary"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+                        }
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <a asp-action="Login" asp-controller="Account" class="btn btn-primary"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+
+                        }
+
                     </div>
-                    
+
+
                 </div>
-            
-        </div>
+
+            </div>
         }
-        
+
+    </div>
+    <div id="cart-container">
+        <!-- Здесь будет отображаться корзина после добавления продукта -->
     </div>
     <hr class="my-4" />
 </div>
@@ -129,43 +143,38 @@
 <hr class="my-4" />
 <section id="contact-us" class="container shadow my-4 p-4">
     <!--Section heading-->
-    <div class="alert alert-success">Success</div>
+    @if (ViewData.ModelState.ContainsKey("Success"))
+    {
+        <div class="alert alert-success">@ViewData.ModelState["Success"].Errors.FirstOrDefault().ErrorMessage</div>
+    }
     <h2 class="text-center my-2 font-weight-bold">Contact Us</h2>
     <p class="text-center">Always Here For You</p>
     <!--Section description-->
     <p class="text-center mx-auto mb-5"></p>
-    <form name="contact-form" action="sendMail" id="myForm" method="POST">
+    <form name="contact-form" asp-action="Index" asp-controller="Comment" method="post">
         <div class="row">
             <div class="col-md-6">
                 <div class="mb-2">
-                    <label class="mb-0" for="name" class="">Fullname*</label>
+
                     <input type="text"
                            id="name"
-                           name="name"
+                           name="AppUserId"
                            class="form-control"
-                           required />
+                           hidden
+                           required
+                           value="@ViewData["Id"]" />
                     <span></span>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div>
-                    <label class="mb-0" for="email" class="">Email*</label>
-                    <input type="text"
-                           id="email"
-                           name="email"
-                           class="form-control"
-                           required />
-                    <span></span>
-                </div>
-            </div>
+
         </div>
         <div class="row">
             <div class="col-md-12">
                 <div class="mb-2">
                     <label class="mb-0" for="subject" class="">Subject</label>
                     <input type="text"
-                           id="subject"
-                           name="subject"
+                           id="name"
+                           name="Title"
                            class="form-control" />
                     <span></span>
                 </div>
@@ -176,8 +185,8 @@
                 <div class="mb-2">
                     <label class="mb-0" for="message">Your Message*</label>
                     <textarea type="text"
-                              id="message"
-                              name="message"
+                              id="name"
+                              name="Description"
                               rows="2"
                               class="form-control"
                               required>
@@ -190,3 +199,21 @@ Your message</textarea>
         <button class="btn btn-info" type="submit">Submit</button>
     </form>
 </section>
+
+<script>
+    $(document).ready(function () {
+        $(".add-to-cart-button").click(function () {
+            var productId = $(this).data("product-id");
+
+            $.ajax({
+                url: "/Restaurants/AddToCartFromHome",
+                data: { id: productId },
+                type: "POST",
+               
+                error: function () {
+                    alert("Произошла ошибка при добавлении продукта в корзину.");
+                }
+            });
+        });
+    });
+</script>

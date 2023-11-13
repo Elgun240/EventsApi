@@ -118,6 +118,13 @@ namespace Practice_4.Controllers
             {
                 await _roleManager.CreateAsync(new IdentityRole { Name = Roles.Member.ToString() });
             }
+            else
+            {
+                await _roleManager.CreateAsync(new IdentityRole { Name = Roles.Restaurant.ToString() });
+
+            }
+           
+            
         }
         public async Task<IActionResult> Logout()
         {

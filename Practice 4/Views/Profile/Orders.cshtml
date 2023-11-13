@@ -4,8 +4,14 @@
 }
 
 <div class="container mt-3">
-    <div class="alert alert-success">Success</div>
-    <div class="alert alert-danger">Error</div>
+    @if (ViewData.ModelState.ContainsKey("Success"))
+    {
+        <div class="alert alert-success">@ViewData.ModelState["Success"].Errors.FirstOrDefault().ErrorMessage</div>
+    }
+    @if (ViewData.ModelState.ContainsKey("Error"))
+    {
+        <div class="alert alert-danger">@ViewData.ModelState["Error"].Errors.FirstOrDefault().ErrorMessage</div>
+    }
     <div class="container shadow-container">
         <h2 class="text-center">Recent Orders</h2>
         <div class="table-responsive-sm">
