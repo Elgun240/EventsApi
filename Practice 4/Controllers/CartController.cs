@@ -112,7 +112,7 @@ namespace Practice_4.Controllers
             {
                 var existingPaidOrder = paidOrders.FirstOrDefault(p => p.Name == item.DishName);
 
-                if (existingPaidOrder != null && existingPaidOrder.Status==Status.Dispatch)
+                if (existingPaidOrder != null && existingPaidOrder.Status==Status.Dispatch )
                 {
                     
                     existingPaidOrder.Quantity += item.Quatntity;
@@ -131,6 +131,7 @@ namespace Practice_4.Controllers
                         Status = Status.Dispatch,
                         Total = item.Price*(double)item.Quatntity,
                         Adress=checkoutVM.Adress
+                        
                     };
                     _db.PaidOrders.Add(paidOrder);
                 }

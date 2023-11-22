@@ -78,9 +78,13 @@ namespace Practice_4.Controllers
             ModelState.AddModelError("Success", "Profile info has been changed!");  
             return View(profileVM);
         }
+        public async Task<IActionResult> ChangePassword()
+        {
+            return View();
+        }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> ChangePassword(ProfileVM profileVM)
+        public async Task<IActionResult> ChangePassword(ChangePasswordVM changePasswordVM)
         {
             //if (!ModelState.IsValid)
             //{
@@ -88,15 +92,15 @@ namespace Practice_4.Controllers
 
             //    return RedirectToAction("MyProfile", "Profile");
             //}
-            if(profileVM.CurrentPassword==null|| profileVM.NewPassword == null || profileVM.CheckPassword == null)
+            if(changePasswordVM.CurrentPassword==null|| changePasswordVM.NewPassword == null || changePasswordVM.CheckPassword == null)
             {
                 TempData["ErrorP"] = "Fill in the field!";
                 
                 return RedirectToAction("MyProfile", "Profile");
             }
-            
-            var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            var result = await _userManager.ChangePasswordAsync(user, profileVM.CurrentPassword, profileVM.NewPassword);
+
+            var user = await _userManager.FindByIdAsync(User.Claims.First().Value);
+            var result = await _userManager.ChangePasswordAsync(user, changePasswordVM.CurrentPassword, changePasswordVM.NewPassword);
             if (result.Succeeded)
             {
                 

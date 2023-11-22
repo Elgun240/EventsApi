@@ -62,6 +62,7 @@
                 @foreach (var item in Model.Orders)
                 {
                     <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].DishName" value="@item.DishName" />
+                    <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].Id" value="@item.Id" />
                     <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].Price" value="@item.Price" />
                     <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].Quatntity" value="@item.Quatntity" />
                     <input type="hidden" name="Orders[@Model.Orders.IndexOf(item)].Subtotal" value="@item.SubTotal" />

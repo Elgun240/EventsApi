@@ -16,7 +16,7 @@
         public double Total { get; set; }
         public int RestaurantId{ get; set; }
         public Restaurant Restaurant { get; set; }
-
+      
     }
     public enum Status
     {

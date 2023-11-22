@@ -11,6 +11,7 @@
             {
                 <div class="alert alert-success">@ViewData.ModelState["Success"].Errors.FirstOrDefault().ErrorMessage</div>
             }
+            <div class="alert-danger alert" asp-validation-summary="All"></div>
             <form asp-action="MyProfile" method="post">
                 <h4 class="pb-4 border-bottom">Account settings</h4>
                 <div class="py-2">
@@ -76,59 +77,6 @@
             </form>
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="wrapper mt-sm-5">
-            @if (ViewData.ModelState.ContainsKey("SuccessP"))
-            {
-                <div class="alert alert-success">@ViewData.ModelState["SuccessP"].Errors.FirstOrDefault().ErrorMessage</div>
-            }
-            @if (ViewData.ModelState.ContainsKey("ErrorP"))
-            {
-                <div class="alert alert-danger">@ViewData.ModelState["ErrorP"].Errors.FirstOrDefault().ErrorMessage</div>
-            }
-            @if (ViewData.ModelState.ContainsKey("ErrorMessages"))
-            {
-                foreach (var item in Model.ErrorMessages)
-                {
-                    <div class="alert alert-danger">@item</div>
-                }
-            }
-            <form method="post" asp-action="ChangePassword">
-                <h4 class="pb-4 border-bottom">Password</h4>
-                <div class="py-2">
-                    <div>
-                        <input type="password"
-                               class="bg-light form-control mb-2"
-                               asp-for="CurrentPassword"
-                               placeholder="Current Password"
-                                />
-                        Current Password
-                    </div>
-                    <div>
-                        <input type="password"
-                               class="bg-light form-control mb-2"
-                               asp-for="NewPassword"
-                               placeholder="New Password"
-                                />
-                        New Password
-                    </div>
-                    <div>
-                        <input type="password"
-                               class="bg-light form-control mb-2"
-                               asp-for="CheckPassword"
-                               placeholder="Confirm Password"
-                                />
-                        New Retype Password
-                    </div>
-                    <div class="py-3 pb-4 border-bottom">
-                        <button type="submit" class="btn btn-primary mr-3 mb-2">
-                            Save Changes
-                        </button>
-                        <a asp-action="Index" asp-controller="Home" class="btn border button">Cancel</a>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
+  
 </div>
 
